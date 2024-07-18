@@ -290,9 +290,11 @@ export async function getDashboardData(req, res, next) {
     });
     const getAllLogedInUsers = await User.countDocuments({
       role: "ENSEIGNANT",
-      status: "LOGIN",
-      status: "DONE",
+      $or: [{ status: "LOGIN" }, { status: "DONE" }],
     });
+    console.log(getAllSignedUsers);
+    console.log(getAllLogedInUsers);
+
     let data = {
       allUsersCount: getAllUsersCount,
       allSignedUsers: getAllSignedUsers,
