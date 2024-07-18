@@ -6,7 +6,6 @@ services:
       - "9009:27017"
     volumes:
       - database:/data/db
-      - files:/public
     networks:
       - signatureapp
 
@@ -26,9 +25,10 @@ services:
       - "3000:3000"
     networks:
       - signatureapp
+    volumes:    
+      - files:/home/node/app/public
     depends_on:
       - mongo
-
   front:
     build:
       context: ./flutter-node-server
