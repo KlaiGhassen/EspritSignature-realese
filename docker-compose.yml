@@ -12,7 +12,7 @@ services:
 
   back:
     build:
-      context: ./signatureServer/ 
+      context: ./signatureServer/
       dockerfile: Dockerfile
     environment:
       - NODE_ENV=production
