@@ -12,7 +12,7 @@ services:
 
   back:
     build:
-      context: /signatureServer/.
+      context: ./signatureServer/ 
       dockerfile: Dockerfile
     environment:
       - NODE_ENV=production
@@ -31,7 +31,7 @@ services:
 
   front:
     build:
-      context: /flutter-node-server/.
+      context: ./flutter-node-server
       dockerfile: Dockerfile
     ports:
       - "3001:3001"
