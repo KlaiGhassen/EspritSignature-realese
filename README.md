@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Teacher Signature Application! This application allows teachers to digitally sign documents and manage their signatures securely. It is designed to streamline the process of document signing and ensure that all signatures are authenticated and stored properly.
+Welcome to the Teacher Signature Application! This application allows teachers to digitally sign and manage their signatures securely. It is designed to streamline the process of document signing and ensure that all signatures are authenticated and stored properly.
 
 ## Features
 
