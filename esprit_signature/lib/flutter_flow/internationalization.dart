@@ -282,15 +282,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'qcsuj5kr': {
       'en': 'ALL',
-      'fr': 'TOUS',
+      'fr': 'ALL',
     },
     'vtt40ouv': {
       'en': 'LOGIN',
-      'fr': 'SE CONNECTER',
+      'fr': 'LOGIN',
     },
     'n2sp951c': {
       'en': 'DONE',
-      'fr': 'FAIT',
+      'fr': 'DONE',
     },
     'isa74g2h': {
       'en': 'NOLOG',
