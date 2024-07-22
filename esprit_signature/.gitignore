@@ -41,7 +41,6 @@ build/Release
 # Dependency directories
 build/
 ios/
-firebase/
 android/
 jspm_packages/
 .vscode/
