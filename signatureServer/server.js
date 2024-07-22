@@ -15,23 +15,23 @@ import { authenticateToken } from "./middlewares/authorise.js";
 
 const app = express();
 const port = process.env.PORT || 3000;
+app.use(cors());
 
 mongoose.set("debug", true);
 mongoose.Promise = global.Promise;
 connectToDatabase();
 
-app.use(cors("*"));
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/img", express.static("public/images"));
-app.use("/files", express.static("public/files"));
 
+app.use("/api/img", express.static("public/images"));
+app.use("/api/files", express.static("public/files"));
 
-app.use("/auth", authRoutes);
-app.use("/users", userRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/users", userRoutes);
 
-app.use("/signature", signatureRoutes);
+app.use("/api/signature", signatureRoutes);
 
 app.use(notFoundError);
 app.use(errorHandler);
