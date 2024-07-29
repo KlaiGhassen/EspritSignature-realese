@@ -9,3 +9,5 @@ export '/pages/teacher/validate_signature/validate_signature_widget.dart'
     show ValidateSignatureWidget;
 export '/pages/teacher/signature_page/signature_page_widget.dart'
     show SignaturePageWidget;
+export '/pages/teacher/o_t_p_verification/o_t_p_verification_widget.dart'
+    show OTPVerificationWidget;

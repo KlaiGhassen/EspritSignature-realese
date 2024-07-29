@@ -5,6 +5,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/backend/schema/structs/index.dart';
+import '/flutter_flow/random_data_util.dart' as random_data;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'sign_in_model.dart';
@@ -56,7 +57,7 @@ class _SignInWidgetState extends State<SignInWidget> {
           top: true,
           child: Form(
             key: _model.formKey,
-            autovalidateMode: AutovalidateMode.always,
+            autovalidateMode: AutovalidateMode.disabled,
             child: Column(
               mainAxisSize: MainAxisSize.max,
               children: [
@@ -414,6 +415,12 @@ class _SignInWidgetState extends State<SignInWidget> {
                                       children: [
                                         FFButtonWidget(
                                           onPressed: () async {
+                                            if (_model.formKey.currentState ==
+                                                    null ||
+                                                !_model.formKey.currentState!
+                                                    .validate()) {
+                                              return;
+                                            }
                                             _model.apiResponse =
                                                 await SigninCall.call(
                                               email: _model
@@ -454,8 +461,10 @@ class _SignInWidgetState extends State<SignInWidget> {
                                                                 ?.jsonBody ??
                                                             '')),
                                               );
-                                              if (currentUserData?.role ==
-                                                  Role.ADMIN) {
+                                              if ((currentUserData?.role ==
+                                                      Role.ADMIN) ||
+                                                  (currentUserData?.role ==
+                                                      Role.SUPERADMIN)) {
                                                 context.goNamedAuth(
                                                   'HomePage',
                                                   context.mounted,
@@ -470,24 +479,34 @@ class _SignInWidgetState extends State<SignInWidget> {
                                                   },
                                                 );
                                               } else {
-                                                if (currentUserData?.status ==
-                                                    Status.DONE) {
-                                                  context.goNamedAuth(
+                                                if (currentUserData?.verified ==
+                                                    true) {
+                                                  context.pushNamedAuth(
                                                       'validateSignature',
                                                       context.mounted);
                                                 } else {
-                                                  context.goNamedAuth(
-                                                    'SignaturePage',
+                                                  await EmailVerificationCall
+                                                      .call(
+                                                    code: random_data
+                                                        .randomInteger(
+                                                            1000, 9999),
+                                                    email: _model
+                                                        .emailAddressTextController
+                                                        .text,
+                                                  );
+
+                                                  context.pushNamedAuth(
+                                                    'OTPVerification',
                                                     context.mounted,
-                                                    extra: <String, dynamic>{
-                                                      kTransitionInfoKey:
-                                                          const TransitionInfo(
-                                                        hasTransition: true,
-                                                        transitionType:
-                                                            PageTransitionType
-                                                                .fade,
+                                                    queryParameters: {
+                                                      'emailOtp':
+                                                          serializeParam(
+                                                        _model
+                                                            .emailAddressTextController
+                                                            .text,
+                                                        ParamType.String,
                                                       ),
-                                                    },
+                                                    }.withoutNulls,
                                                   );
                                                 }
                                               }

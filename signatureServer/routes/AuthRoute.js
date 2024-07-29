@@ -4,13 +4,19 @@ import {
   login,
   getUserFromToken,
   logout,
+  sendMail,
+  checkCode,
 } from "../controllers/AuthController.js";
 import { authenticateToken } from "../middlewares/authorise.js";
 
 const router = express.Router();
-//! login routes calls login method on controller
-router.post("/sign-in", login);
 
+router.post("/email", sendMail);
+
+//! login routes calls login method on controller
+
+router.post("/sign-in", login);
+router.post("/check-code", checkCode);
 //! get access token from refresh token
 router.get("/token", getAccessTokenFromRefreshToken);
 // ! get a user from token
@@ -31,7 +37,5 @@ router.get("/user", authenticateToken, getUserFromToken, (req, res) => {
 
 //! logout the user
 router.delete("/logout", authenticateToken, logout);
- 
-
 
 export default router;

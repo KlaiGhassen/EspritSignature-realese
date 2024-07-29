@@ -211,6 +211,7 @@ export async function getAllUsers(req, res, next) {
       };
     }
     const users = await User.find(query);
+    console.log(users);
 
     const formattedUsers = users.map((user) => {
       const updatedAt = new Date(user.updatedAt);

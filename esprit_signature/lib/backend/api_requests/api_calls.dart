@@ -192,6 +192,56 @@ class ExtractToPdfCall {
   }
 }
 
+class EmailVerificationCall {
+  static Future<ApiCallResponse> call({
+    int? code,
+    String? email = '',
+  }) async {
+    return ApiManager.instance.makeApiCall(
+      callName: 'emailVerification',
+       apiUrl:(dotenv.env['endpoints'] ?? '') + 'auth/email',
+      callType: ApiCallType.POST,
+      headers: {},
+      params: {
+        'code': code,
+        'email': email,
+      },
+      bodyType: BodyType.X_WWW_FORM_URL_ENCODED,
+      returnBody: true,
+      encodeBodyUtf8: false,
+      decodeUtf8: false,
+      cache: false,
+      isStreamingApi: false,
+      alwaysAllowBody: false,
+    );
+  }
+}
+
+class VerifyCodeCall {
+  static Future<ApiCallResponse> call({
+    int? code,
+    String? email = '',
+  }) async {
+    return ApiManager.instance.makeApiCall(
+      callName: 'verifyCode',
+     apiUrl:(dotenv.env['endpoints'] ?? '') + 'auth/check-code',
+      callType: ApiCallType.POST,
+      headers: {},
+      params: {
+        'email': email,
+        'userCode': code,
+      },
+      bodyType: BodyType.X_WWW_FORM_URL_ENCODED,
+      returnBody: true,
+      encodeBodyUtf8: false,
+      decodeUtf8: false,
+      cache: false,
+      isStreamingApi: false,
+      alwaysAllowBody: false,
+    );
+  }
+}
+
 class ApiPagingParams {
   int nextPageNumber = 0;
   int numItems = 0;

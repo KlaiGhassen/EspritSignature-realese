@@ -116,6 +116,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               path: 'signaturePage',
               requireAuth: true,
               builder: (context, params) => const SignaturePageWidget(),
+            ),
+            FFRoute(
+              name: 'OTPVerification',
+              path: 'oTPVerification',
+              builder: (context, params) => OTPVerificationWidget(
+                emailOtp: params.getParam(
+                  'emailOtp',
+                  ParamType.String,
+                ),
+              ),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

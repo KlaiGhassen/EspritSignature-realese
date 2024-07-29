@@ -11,7 +11,7 @@ const teachers = [
     role: "ADMIN",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0037",
@@ -20,7 +20,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0062",
@@ -29,7 +29,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0071",
@@ -38,7 +38,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0074",
@@ -47,7 +47,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0099",
@@ -56,7 +56,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0111",
@@ -65,7 +65,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0135",
@@ -74,7 +74,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0136",
@@ -83,7 +83,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0137",
@@ -92,7 +92,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0139",
@@ -101,7 +101,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0148",
@@ -110,7 +110,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0152",
@@ -119,7 +119,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0160",
@@ -128,7 +128,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0210",
@@ -137,7 +137,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0216",
@@ -146,7 +146,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0218",
@@ -155,7 +155,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0285",
@@ -164,7 +164,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0288",
@@ -173,7 +173,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0291",
@@ -182,7 +182,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0305",
@@ -191,7 +191,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0308",
@@ -200,7 +200,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0320",
@@ -209,7 +209,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0321",
@@ -218,7 +218,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0325",
@@ -227,7 +227,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0336",
@@ -236,7 +236,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0338",
@@ -245,7 +245,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0342",
@@ -254,7 +254,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0346",
@@ -263,7 +263,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0350",
@@ -272,7 +272,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0356",
@@ -281,7 +281,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0359",
@@ -290,7 +290,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0367",
@@ -299,7 +299,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0389",
@@ -308,7 +308,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0391",
@@ -317,7 +317,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0393",
@@ -326,7 +326,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0394",
@@ -335,7 +335,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0398",
@@ -344,7 +344,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0400",
@@ -353,7 +353,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0405",
@@ -362,7 +362,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0407",
@@ -371,7 +371,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0412",
@@ -380,7 +380,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0413",
@@ -389,7 +389,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0414",
@@ -398,7 +398,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0428",
@@ -407,7 +407,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0429",
@@ -416,7 +416,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0433",
@@ -425,7 +425,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0446",
@@ -434,7 +434,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0501",
@@ -443,7 +443,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0521",
@@ -452,7 +452,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0538",
@@ -461,7 +461,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0539",
@@ -470,7 +470,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0540",
@@ -479,7 +479,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0541",
@@ -488,7 +488,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0544",
@@ -497,7 +497,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0549",
@@ -506,7 +506,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0578",
@@ -515,7 +515,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0579",
@@ -524,7 +524,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0580",
@@ -533,7 +533,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0585",
@@ -542,7 +542,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0586",
@@ -551,7 +551,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0587",
@@ -560,7 +560,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0589",
@@ -569,7 +569,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0591",
@@ -578,7 +578,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0596",
@@ -587,7 +587,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0597",
@@ -596,7 +596,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0608",
@@ -605,7 +605,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0611",
@@ -614,7 +614,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0612",
@@ -623,7 +623,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0627",
@@ -632,7 +632,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0652",
@@ -641,7 +641,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0654",
@@ -650,7 +650,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0663",
@@ -659,7 +659,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0665",
@@ -668,7 +668,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0674",
@@ -677,7 +677,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0675",
@@ -686,7 +686,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0679",
@@ -695,7 +695,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0719",
@@ -704,7 +704,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0736",
@@ -713,7 +713,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0737",
@@ -722,7 +722,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0738",
@@ -731,7 +731,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0741",
@@ -740,7 +740,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0743",
@@ -749,7 +749,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0746",
@@ -758,7 +758,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0753",
@@ -767,7 +767,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0755",
@@ -776,7 +776,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0756",
@@ -785,7 +785,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0757",
@@ -794,7 +794,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0773",
@@ -803,7 +803,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0781",
@@ -812,7 +812,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0784",
@@ -821,7 +821,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0797",
@@ -830,7 +830,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0821",
@@ -839,7 +839,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0835",
@@ -848,7 +848,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0847",
@@ -857,7 +857,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0850",
@@ -866,7 +866,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0856",
@@ -875,7 +875,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0874",
@@ -884,7 +884,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0876",
@@ -893,7 +893,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0879",
@@ -902,7 +902,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0881",
@@ -911,7 +911,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0882",
@@ -920,7 +920,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0912",
@@ -929,7 +929,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0915",
@@ -938,7 +938,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0921",
@@ -947,7 +947,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0943",
@@ -956,7 +956,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0946",
@@ -965,7 +965,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0948",
@@ -974,7 +974,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0954",
@@ -983,7 +983,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0955",
@@ -992,7 +992,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0957",
@@ -1001,7 +1001,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0958",
@@ -1010,7 +1010,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0959",
@@ -1019,7 +1019,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0967",
@@ -1028,7 +1028,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0970",
@@ -1037,7 +1037,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "0971",
@@ -1046,7 +1046,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1002",
@@ -1055,7 +1055,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1021",
@@ -1064,7 +1064,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1027",
@@ -1073,7 +1073,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1032",
@@ -1082,7 +1082,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1033",
@@ -1091,7 +1091,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1036",
@@ -1100,7 +1100,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1037",
@@ -1109,7 +1109,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1040",
@@ -1118,7 +1118,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1041",
@@ -1127,7 +1127,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1047",
@@ -1136,7 +1136,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1048",
@@ -1145,7 +1145,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1049",
@@ -1154,7 +1154,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1051",
@@ -1163,7 +1163,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1053",
@@ -1172,7 +1172,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1055",
@@ -1181,7 +1181,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1057",
@@ -1190,7 +1190,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1058",
@@ -1199,7 +1199,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1062",
@@ -1208,7 +1208,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1064",
@@ -1217,7 +1217,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1068",
@@ -1226,7 +1226,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1071",
@@ -1235,7 +1235,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1085",
@@ -1244,7 +1244,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1092",
@@ -1253,7 +1253,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1095",
@@ -1262,7 +1262,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1103",
@@ -1271,7 +1271,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1104",
@@ -1280,7 +1280,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1105",
@@ -1289,7 +1289,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1106",
@@ -1298,7 +1298,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1107",
@@ -1307,7 +1307,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1109",
@@ -1316,7 +1316,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1129",
@@ -1325,7 +1325,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1133",
@@ -1334,7 +1334,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1134",
@@ -1343,7 +1343,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1136",
@@ -1352,7 +1352,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1139",
@@ -1361,7 +1361,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1140",
@@ -1370,7 +1370,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1144",
@@ -1379,7 +1379,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1145",
@@ -1388,7 +1388,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1146",
@@ -1397,7 +1397,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1147",
@@ -1406,7 +1406,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1148",
@@ -1415,7 +1415,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1149",
@@ -1424,7 +1424,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1150",
@@ -1433,7 +1433,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1151",
@@ -1442,7 +1442,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1152",
@@ -1451,7 +1451,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1154",
@@ -1460,7 +1460,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1155",
@@ -1469,7 +1469,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1156",
@@ -1478,7 +1478,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1160",
@@ -1487,7 +1487,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1161",
@@ -1496,7 +1496,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1162",
@@ -1505,7 +1505,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1165",
@@ -1514,7 +1514,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1166",
@@ -1523,7 +1523,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1167",
@@ -1532,7 +1532,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1169",
@@ -1541,7 +1541,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1170",
@@ -1550,7 +1550,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1174",
@@ -1559,7 +1559,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1177",
@@ -1568,7 +1568,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1182",
@@ -1577,7 +1577,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1190",
@@ -1586,7 +1586,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1191",
@@ -1595,7 +1595,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1193",
@@ -1604,7 +1604,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1203",
@@ -1613,7 +1613,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1204",
@@ -1622,7 +1622,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1205",
@@ -1631,7 +1631,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1206",
@@ -1640,7 +1640,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1208",
@@ -1649,7 +1649,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1209",
@@ -1658,7 +1658,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1210",
@@ -1667,7 +1667,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1221",
@@ -1676,7 +1676,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1228",
@@ -1685,7 +1685,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1235",
@@ -1694,7 +1694,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1237",
@@ -1703,7 +1703,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1249",
@@ -1712,7 +1712,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1252",
@@ -1721,7 +1721,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1258",
@@ -1730,7 +1730,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1259",
@@ -1739,7 +1739,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1260",
@@ -1748,7 +1748,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1271",
@@ -1757,7 +1757,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1282",
@@ -1766,7 +1766,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1283",
@@ -1775,7 +1775,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1285",
@@ -1784,7 +1784,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1286",
@@ -1793,7 +1793,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1292",
@@ -1802,7 +1802,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1293",
@@ -1811,7 +1811,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1295",
@@ -1820,7 +1820,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1297",
@@ -1829,7 +1829,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1298",
@@ -1838,7 +1838,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1299",
@@ -1847,7 +1847,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1301",
@@ -1856,7 +1856,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1303",
@@ -1865,7 +1865,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1304",
@@ -1874,7 +1874,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1305",
@@ -1883,7 +1883,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1312",
@@ -1892,7 +1892,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1314",
@@ -1901,7 +1901,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1318",
@@ -1910,7 +1910,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1319",
@@ -1919,7 +1919,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1321",
@@ -1928,7 +1928,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1337",
@@ -1937,7 +1937,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1338",
@@ -1946,7 +1946,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1339",
@@ -1955,7 +1955,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1341",
@@ -1964,7 +1964,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1342",
@@ -1973,7 +1973,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1343",
@@ -1982,7 +1982,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1344",
@@ -1991,7 +1991,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1345",
@@ -2000,7 +2000,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1346",
@@ -2009,7 +2009,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1349",
@@ -2018,7 +2018,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1351",
@@ -2027,7 +2027,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1352",
@@ -2036,7 +2036,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1355",
@@ -2045,7 +2045,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1356",
@@ -2054,7 +2054,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1358",
@@ -2063,7 +2063,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1360",
@@ -2072,7 +2072,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1371",
@@ -2081,7 +2081,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1372",
@@ -2090,7 +2090,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1374",
@@ -2099,7 +2099,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1381",
@@ -2108,7 +2108,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1388",
@@ -2117,7 +2117,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1396",
@@ -2126,7 +2126,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1398",
@@ -2135,7 +2135,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1400",
@@ -2144,7 +2144,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1401",
@@ -2153,7 +2153,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1402",
@@ -2162,7 +2162,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1405",
@@ -2171,7 +2171,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1406",
@@ -2180,7 +2180,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1407",
@@ -2189,7 +2189,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1408",
@@ -2198,7 +2198,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1409",
@@ -2207,7 +2207,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1410",
@@ -2216,7 +2216,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1411",
@@ -2225,7 +2225,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1412",
@@ -2234,7 +2234,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1413",
@@ -2243,7 +2243,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1415",
@@ -2252,7 +2252,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1416",
@@ -2261,7 +2261,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1417",
@@ -2270,7 +2270,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1419",
@@ -2279,7 +2279,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1420",
@@ -2288,7 +2288,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1421",
@@ -2297,7 +2297,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1423",
@@ -2306,7 +2306,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1425",
@@ -2315,7 +2315,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1426",
@@ -2324,7 +2324,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1427",
@@ -2333,7 +2333,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1429",
@@ -2342,7 +2342,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1430",
@@ -2351,7 +2351,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1432",
@@ -2360,7 +2360,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1433",
@@ -2369,7 +2369,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1435",
@@ -2378,7 +2378,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1436",
@@ -2387,7 +2387,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1437",
@@ -2396,7 +2396,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1448",
@@ -2405,7 +2405,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1452",
@@ -2414,7 +2414,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1454",
@@ -2423,7 +2423,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1455",
@@ -2432,7 +2432,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1456",
@@ -2441,7 +2441,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1457",
@@ -2450,7 +2450,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1458",
@@ -2459,7 +2459,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1459",
@@ -2468,7 +2468,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1462",
@@ -2477,7 +2477,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1463",
@@ -2486,7 +2486,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1464",
@@ -2495,7 +2495,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1465",
@@ -2504,7 +2504,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1466",
@@ -2513,7 +2513,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1467",
@@ -2522,7 +2522,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1471",
@@ -2531,7 +2531,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1472",
@@ -2540,7 +2540,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1474",
@@ -2549,7 +2549,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1485",
@@ -2558,7 +2558,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1486",
@@ -2567,7 +2567,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1487",
@@ -2576,7 +2576,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1488",
@@ -2585,7 +2585,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1490",
@@ -2594,7 +2594,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1491",
@@ -2603,7 +2603,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1492",
@@ -2612,7 +2612,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1494",
@@ -2621,7 +2621,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1495",
@@ -2630,7 +2630,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1496",
@@ -2639,7 +2639,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1497",
@@ -2648,7 +2648,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1499",
@@ -2657,7 +2657,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1500",
@@ -2666,7 +2666,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1501",
@@ -2675,7 +2675,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1504",
@@ -2684,7 +2684,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1507",
@@ -2693,7 +2693,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1515",
@@ -2702,7 +2702,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1516",
@@ -2711,7 +2711,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1520",
@@ -2720,7 +2720,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1525",
@@ -2729,7 +2729,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1526",
@@ -2738,7 +2738,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1527",
@@ -2747,7 +2747,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1528",
@@ -2756,7 +2756,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1529",
@@ -2765,7 +2765,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1530",
@@ -2774,7 +2774,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1531",
@@ -2783,7 +2783,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1532",
@@ -2792,7 +2792,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1533",
@@ -2801,7 +2801,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1534",
@@ -2810,7 +2810,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1535",
@@ -2819,7 +2819,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1536",
@@ -2828,7 +2828,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1537",
@@ -2837,7 +2837,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1538",
@@ -2846,7 +2846,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1539",
@@ -2855,7 +2855,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1540",
@@ -2864,7 +2864,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1541",
@@ -2873,7 +2873,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1542",
@@ -2882,7 +2882,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1543",
@@ -2891,7 +2891,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1544",
@@ -2900,7 +2900,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1545",
@@ -2909,7 +2909,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1546",
@@ -2918,7 +2918,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1547",
@@ -2927,7 +2927,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1548",
@@ -2936,7 +2936,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1549",
@@ -2945,7 +2945,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1550",
@@ -2954,7 +2954,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1551",
@@ -2963,7 +2963,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1553",
@@ -2972,7 +2972,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1555",
@@ -2981,7 +2981,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1556",
@@ -2990,7 +2990,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1557",
@@ -2999,7 +2999,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1558",
@@ -3008,7 +3008,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1560",
@@ -3017,7 +3017,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1561",
@@ -3026,7 +3026,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1562",
@@ -3035,7 +3035,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1563",
@@ -3044,7 +3044,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1564",
@@ -3053,7 +3053,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1565",
@@ -3062,7 +3062,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1566",
@@ -3071,7 +3071,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1568",
@@ -3080,7 +3080,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1569",
@@ -3089,7 +3089,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1571",
@@ -3098,7 +3098,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1572",
@@ -3107,7 +3107,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1573",
@@ -3116,7 +3116,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1574",
@@ -3125,7 +3125,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1575",
@@ -3134,7 +3134,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1576",
@@ -3143,7 +3143,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1577",
@@ -3152,7 +3152,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1578",
@@ -3161,7 +3161,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1579",
@@ -3170,7 +3170,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1580",
@@ -3179,7 +3179,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1581",
@@ -3188,7 +3188,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1582",
@@ -3197,7 +3197,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1583",
@@ -3206,7 +3206,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1584",
@@ -3215,7 +3215,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1586",
@@ -3224,7 +3224,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1587",
@@ -3233,7 +3233,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1588",
@@ -3242,7 +3242,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1590",
@@ -3251,7 +3251,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1591",
@@ -3260,7 +3260,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1592",
@@ -3269,7 +3269,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1593",
@@ -3278,7 +3278,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1594",
@@ -3287,7 +3287,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1595",
@@ -3296,7 +3296,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1596",
@@ -3305,7 +3305,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1597",
@@ -3314,7 +3314,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1598",
@@ -3323,7 +3323,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1599",
@@ -3332,7 +3332,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1600",
@@ -3341,7 +3341,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1601",
@@ -3350,7 +3350,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1602",
@@ -3359,7 +3359,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1603",
@@ -3368,7 +3368,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1604",
@@ -3377,7 +3377,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1605",
@@ -3386,7 +3386,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1609",
@@ -3395,7 +3395,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1610",
@@ -3404,7 +3404,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1614",
@@ -3413,7 +3413,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1617",
@@ -3422,7 +3422,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1618",
@@ -3431,7 +3431,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1622",
@@ -3440,7 +3440,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1623",
@@ -3449,7 +3449,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1624",
@@ -3458,7 +3458,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1625",
@@ -3467,7 +3467,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1626",
@@ -3476,7 +3476,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1627",
@@ -3485,7 +3485,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1628",
@@ -3494,7 +3494,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1629",
@@ -3503,7 +3503,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1630",
@@ -3512,7 +3512,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1631",
@@ -3521,7 +3521,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1632",
@@ -3530,7 +3530,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1633",
@@ -3539,7 +3539,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1634",
@@ -3548,7 +3548,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1635",
@@ -3557,7 +3557,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1637",
@@ -3566,7 +3566,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1638",
@@ -3575,7 +3575,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
   {
     matricule: "1639",
@@ -3584,7 +3584,7 @@ const teachers = [
     role: "ENSEIGNANT",
     updatedAt: new Date(),
     createdAt: new Date(),
-    IMG_LINK: process.env.IMG_LINK + "error.jpg",
+    status: "NOLOG",
   },
 ];
 

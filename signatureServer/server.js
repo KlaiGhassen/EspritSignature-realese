@@ -11,6 +11,8 @@ import { notFoundError, errorHandler } from "./middlewares/error-handler.js";
 import authRoutes from "./routes/AuthRoute.js";
 import userRoutes from "./routes/UserRoute.js";
 import signatureRoutes from "./routes/SignatureRoute.js";
+import vacationPeriod from "./routes/VacationPeriodRoute.js";
+import vacation from "./routes/VacationRoute.js";
 import { authenticateToken } from "./middlewares/authorise.js";
 
 const app = express();
@@ -32,6 +34,8 @@ app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 
 app.use("/api/signature", signatureRoutes);
+app.use("/api/vacation-period", vacationPeriod);
+app.use("/api/vacation", vacation);
 
 app.use(notFoundError);
 app.use(errorHandler);

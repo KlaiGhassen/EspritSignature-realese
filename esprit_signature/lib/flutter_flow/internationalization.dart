@@ -342,7 +342,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'rbbiz4uh': {
       'en': 'Home',
-      'fr': 'Maison',
+      'fr': 'Home',
     },
   },
   // validateSignature
@@ -373,7 +373,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'z44qdkuf': {
       'en': 'Home',
-      'fr': 'Maison',
+      'fr': 'Home',
     },
   },
   // SignaturePage
@@ -405,6 +405,39 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'w4wejonl': {
       'en': '•',
       'fr': '•',
+    },
+  },
+  // OTPVerification
+  {
+    'yg0j3btv': {
+      'en': 'Verification',
+      'fr': 'Vérification',
+    },
+    't8ww2xxo': {
+      'en': 'Verification Code',
+      'fr': 'Le code de vérification',
+    },
+    'mju5f18a': {
+      'en':
+          'We have to sent the code verification, Please enter the code to move forward',
+      'fr':
+          'Nous devons envoyer le code de vérification, veuillez saisir le code pour continuer',
+    },
+    'ugnerddh': {
+      'en': 'Field is required',
+      'fr': 'Champ requis',
+    },
+    'at79mzhe': {
+      'en': 'Verify',
+      'fr': 'Vérifier',
+    },
+    'rmwv741g': {
+      'en': 'Didn\'t recceive the code? ',
+      'fr': 'Vous n\'avez pas reçu le code ?',
+    },
+    '2wj24aw6': {
+      'en': 'Home',
+      'fr': 'Home',
     },
   },
   // sideBarNavAdmin

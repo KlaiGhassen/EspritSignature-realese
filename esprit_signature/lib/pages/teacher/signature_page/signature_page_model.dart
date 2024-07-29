@@ -7,6 +7,7 @@ class SignaturePageModel extends FlutterFlowModel<SignaturePageWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
+  final formKey = GlobalKey<FormState>();
   // Stores action output result for [Custom Action - convertToBase64] action in validation widget.
   String? base64;
   // Stores action output result for [Backend Call - API (add signature)] action in validation widget.

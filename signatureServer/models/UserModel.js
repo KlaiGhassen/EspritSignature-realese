@@ -36,6 +36,14 @@ const userSchema = new Schema(
     signatureImage: {
       type: String,
     },
+    verificationCode: {
+      type: String,
+    },
+    verified: {
+      type: Boolean,
+      default: false,
+      required: true,
+    },
   },
   {
     timestamps: true,

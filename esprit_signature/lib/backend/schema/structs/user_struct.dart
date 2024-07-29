@@ -18,6 +18,7 @@ class UserStruct extends BaseStruct {
     String? createdAt,
     String? updatedAt,
     String? fullName,
+    bool? verified,
   })  : _email = email,
         _matricule = matricule,
         _role = role,
@@ -27,7 +28,8 @@ class UserStruct extends BaseStruct {
         _signatureImage = signatureImage,
         _createdAt = createdAt,
         _updatedAt = updatedAt,
-        _fullName = fullName;
+        _fullName = fullName,
+        _verified = verified;
 
   // "email" field.
   String? _email;
@@ -99,6 +101,13 @@ class UserStruct extends BaseStruct {
 
   bool hasFullName() => _fullName != null;
 
+  // "verified" field.
+  bool? _verified;
+  bool get verified => _verified ?? false;
+  set verified(bool? val) => _verified = val;
+
+  bool hasVerified() => _verified != null;
+
   static UserStruct fromMap(Map<String, dynamic> data) => UserStruct(
         email: data['email'] as String?,
         matricule: data['matricule'] as String?,
@@ -110,6 +119,7 @@ class UserStruct extends BaseStruct {
         createdAt: data['createdAt'] as String?,
         updatedAt: data['updatedAt'] as String?,
         fullName: data['fullName'] as String?,
+        verified: data['verified'] as bool?,
       );
 
   static UserStruct? maybeFromMap(dynamic data) =>
@@ -126,6 +136,7 @@ class UserStruct extends BaseStruct {
         'createdAt': _createdAt,
         'updatedAt': _updatedAt,
         'fullName': _fullName,
+        'verified': _verified,
       }.withoutNulls;
 
   @override
@@ -169,6 +180,10 @@ class UserStruct extends BaseStruct {
         'fullName': serializeParam(
           _fullName,
           ParamType.String,
+        ),
+        'verified': serializeParam(
+          _verified,
+          ParamType.bool,
         ),
       }.withoutNulls;
 
@@ -224,6 +239,11 @@ class UserStruct extends BaseStruct {
           ParamType.String,
           false,
         ),
+        verified: deserializeParam(
+          data['verified'],
+          ParamType.bool,
+          false,
+        ),
       );
 
   @override
@@ -241,7 +261,8 @@ class UserStruct extends BaseStruct {
         signatureImage == other.signatureImage &&
         createdAt == other.createdAt &&
         updatedAt == other.updatedAt &&
-        fullName == other.fullName;
+        fullName == other.fullName &&
+        verified == other.verified;
   }
 
   @override
@@ -255,7 +276,8 @@ class UserStruct extends BaseStruct {
         signatureImage,
         createdAt,
         updatedAt,
-        fullName
+        fullName,
+        verified
       ]);
 }
 
@@ -270,6 +292,7 @@ UserStruct createUserStruct({
   String? createdAt,
   String? updatedAt,
   String? fullName,
+  bool? verified,
 }) =>
     UserStruct(
       email: email,
@@ -282,4 +305,5 @@ UserStruct createUserStruct({
       createdAt: createdAt,
       updatedAt: updatedAt,
       fullName: fullName,
+      verified: verified,
     );
