@@ -15,20 +15,21 @@ services:
       dockerfile: Dockerfile
     environment:
       - NODE_ENV=production
-      - DB_NAME=signatureapp
+      - DB_NAME=signatureapp_arriver
       - DB_URL=mongodb://mongo
       - IMG_LINK=http://51.38.125.78:3000/api/img/
       - PDF_LINK=http://51.38.125.78:3000/api/files/
       - REFRESH_TOKEN_SECRET=refreshToken
       - ACCESS_TOKEN_SECRET=accessToken
       - EMAIL=ghassen.klai@esprit.tn
-      - PWD= ***** 
+      - PWD=*****
     ports:
       - "3000:3000"
     networks:
       - signatureapp
     volumes:
       - files:/home/node/app/public
+      - ./public:/home/node/app/public
     depends_on:
       - mongo
 
@@ -37,7 +38,7 @@ services:
       context: ./esprit_signature/
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "80:80"
     networks:
       - signatureapp
     environment:
@@ -62,6 +63,7 @@ services:
 volumes:
   database:
   files:
+  public:
 
 networks:
   signatureapp:
