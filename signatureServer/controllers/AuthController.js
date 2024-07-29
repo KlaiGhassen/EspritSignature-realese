@@ -61,13 +61,16 @@ export async function login(req, res, next) {
 export async function checkCode(req, res, next) {
   const { email, userCode } = req.body;
   try {
+    console.log(email);
+    console.log(userCode);
     let user = await User.findOneAndUpdate(
       {
-        email: { $regex: new RegExp(`^${email.toUpperCase()}$`, "i") },
+        email: { $regex: new RegExp(`^${email.toUpperCase()}$2`, "i") },
         verificationCode: userCode,
       },
       { verified: true }
     );
+    console.log(user);
     if (!user) {
       return res.status(404).json({ message: "verify your code" });
     }
@@ -160,12 +163,12 @@ export async function sendMail(req, res) {
           ciphers: "SSLv3",
         },
       });
-   
+
       var mailOptions = {
         from: process.env.EMAIL,
         to: email,
         subject: "Verify Email",
-      
+
         html: templateVerify(code),
       };
       transporter.sendMail(mailOptions, async function (error, info) {
