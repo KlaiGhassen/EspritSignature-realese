@@ -9,6 +9,8 @@ import '/custom_code/actions/index.dart' as actions;
 import '/custom_code/widgets/index.dart' as custom_widgets;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
 import 'signature_page_model.dart';
 export 'signature_page_model.dart';
 
@@ -49,38 +51,37 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         drawer: Drawer(
-          elevation: 16.0,
+          elevation: 16,
           child: Container(
-            width: 230.0,
+            width: 230,
             height: double.infinity,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: const [
+              boxShadow: [
                 BoxShadow(
-                  blurRadius: 3.0,
+                  blurRadius: 3,
                   color: Color(0x33000000),
                   offset: Offset(
-                    0.0,
-                    1.0,
+                    0,
+                    1,
                   ),
                 )
               ],
-              borderRadius: const BorderRadius.only(
-                bottomLeft: Radius.circular(0.0),
-                bottomRight: Radius.circular(12.0),
-                topLeft: Radius.circular(0.0),
-                topRight: Radius.circular(12.0),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(0),
+                bottomRight: Radius.circular(12),
+                topLeft: Radius.circular(0),
+                topRight: Radius.circular(12),
               ),
             ),
             child: Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: EdgeInsets.all(16),
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 24.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 24),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -88,15 +89,15 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                         if (Theme.of(context).brightness == Brightness.light)
                           Image.asset(
                             'assets/images/Esprit-groupe.png',
-                            width: 192.0,
-                            height: 84.0,
+                            width: 192,
+                            height: 84,
                             fit: BoxFit.fitWidth,
                           ),
                         if (Theme.of(context).brightness == Brightness.dark)
                           Image.asset(
                             'assets/images/Logo_White.png',
-                            width: 192.0,
-                            height: 84.0,
+                            width: 192,
+                            height: 84,
                             fit: BoxFit.fitWidth,
                           ),
                       ],
@@ -109,13 +110,13 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                     style: FlutterFlowTheme.of(context).bodySmall.override(
                           fontFamily:
                               FlutterFlowTheme.of(context).bodySmallFamily,
-                          letterSpacing: 0.0,
+                          letterSpacing: 0,
                           useGoogleFonts: GoogleFonts.asMap().containsKey(
                               FlutterFlowTheme.of(context).bodySmallFamily),
                         ),
                   ),
                   Padding(
-                    padding: const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                     child: InkWell(
                       splashColor: Colors.transparent,
                       focusColor: Colors.transparent,
@@ -126,7 +127,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                           context.goNamed(
                             'validateSignature',
                             extra: <String, dynamic>{
-                              kTransitionInfoKey: const TransitionInfo(
+                              kTransitionInfoKey: TransitionInfo(
                                 hasTransition: true,
                                 transitionType: PageTransitionType.fade,
                                 duration: Duration(milliseconds: 0),
@@ -137,7 +138,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                           context.goNamed(
                             'SignaturePage',
                             extra: <String, dynamic>{
-                              kTransitionInfoKey: const TransitionInfo(
+                              kTransitionInfoKey: TransitionInfo(
                                 hasTransition: true,
                                 transitionType: PageTransitionType.fade,
                                 duration: Duration(milliseconds: 0),
@@ -148,26 +149,25 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                       },
                       child: Container(
                         width: double.infinity,
-                        height: 48.0,
+                        height: 48,
                         decoration: BoxDecoration(
                           color:
                               FlutterFlowTheme.of(context).secondaryBackground,
-                          borderRadius: BorderRadius.circular(12.0),
+                          borderRadius: BorderRadius.circular(12),
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 4.0, 4.0, 4.0),
+                          padding: EdgeInsetsDirectional.fromSTEB(8, 4, 4, 4),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 0.0, 12.0, 0.0),
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(0, 0, 12, 0),
                                 child: Icon(
                                   Icons.vignette_outlined,
                                   color:
                                       FlutterFlowTheme.of(context).primaryText,
-                                  size: 24.0,
+                                  size: 24,
                                 ),
                               ),
                               Text(
@@ -179,7 +179,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                     .override(
                                       fontFamily: FlutterFlowTheme.of(context)
                                           .bodyMediumFamily,
-                                      letterSpacing: 0.0,
+                                      letterSpacing: 0,
                                       useGoogleFonts: GoogleFonts.asMap()
                                           .containsKey(
                                               FlutterFlowTheme.of(context)
@@ -193,7 +193,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                     child: InkWell(
                       splashColor: Colors.transparent,
                       focusColor: Colors.transparent,
@@ -208,26 +208,25 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                       },
                       child: Container(
                         width: double.infinity,
-                        height: 48.0,
+                        height: 48,
                         decoration: BoxDecoration(
                           color:
                               FlutterFlowTheme.of(context).secondaryBackground,
-                          borderRadius: BorderRadius.circular(12.0),
+                          borderRadius: BorderRadius.circular(12),
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 4.0, 4.0, 4.0),
+                          padding: EdgeInsetsDirectional.fromSTEB(8, 4, 4, 4),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 0.0, 12.0, 0.0),
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(0, 0, 12, 0),
                                 child: Icon(
                                   Icons.logout,
                                   color:
                                       FlutterFlowTheme.of(context).primaryText,
-                                  size: 24.0,
+                                  size: 24,
                                 ),
                               ),
                               Text(
@@ -239,7 +238,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                     .override(
                                       fontFamily: FlutterFlowTheme.of(context)
                                           .bodyMediumFamily,
-                                      letterSpacing: 0.0,
+                                      letterSpacing: 0,
                                       useGoogleFonts: GoogleFonts.asMap()
                                           .containsKey(
                                               FlutterFlowTheme.of(context)
@@ -261,25 +260,6 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            if (responsiveVisibility(
-              context: context,
-              tabletLandscape: false,
-              desktop: false,
-            ))
-              Expanded(
-                child: Align(
-                  alignment: const AlignmentDirectional(0.0, 0.0),
-                  child: Container(
-                    width: double.infinity,
-                    height: 44.0,
-                    decoration: BoxDecoration(
-                      color: FlutterFlowTheme.of(context).primaryBackground,
-                      borderRadius: BorderRadius.circular(0.0),
-                    ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
-                  ),
-                ),
-              ),
             Expanded(
               child: Form(
                 key: _model.formKey,
@@ -289,37 +269,36 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Align(
-                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      alignment: AlignmentDirectional(0, 0),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
-                            16.0, 32.0, 16.0, 0.0),
+                        padding: EdgeInsetsDirectional.fromSTEB(16, 32, 16, 0),
                         child: Container(
                           width: double.infinity,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            boxShadow: const [
+                            boxShadow: [
                               BoxShadow(
-                                blurRadius: 4.0,
+                                blurRadius: 4,
                                 color: Color(0x33000000),
                                 offset: Offset(
-                                  0.0,
-                                  2.0,
+                                  0,
+                                  2,
                                 ),
                               )
                             ],
-                            borderRadius: BorderRadius.circular(16.0),
+                            borderRadius: BorderRadius.circular(16),
                           ),
-                          alignment: const AlignmentDirectional(0.0, -1.0),
+                          alignment: AlignmentDirectional(0, -1),
                           child: Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 20.0),
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 10.0, 0.0, 20.0),
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 10, 0, 20),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
                                       'u3ezkfd0' /* Sign on the box  */,
@@ -331,8 +310,8 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                           fontFamily:
                                               FlutterFlowTheme.of(context)
                                                   .bodyMediumFamily,
-                                          fontSize: 18.0,
-                                          letterSpacing: 0.0,
+                                          fontSize: 18,
+                                          letterSpacing: 0,
                                           useGoogleFonts: GoogleFonts.asMap()
                                               .containsKey(
                                                   FlutterFlowTheme.of(context)
@@ -345,18 +324,18 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                   height:
                                       MediaQuery.sizeOf(context).height * 0.5,
                                   decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(24.0),
+                                    borderRadius: BorderRadius.circular(24),
                                     border: Border.all(
                                       color:
                                           FlutterFlowTheme.of(context).tertiary,
                                     ),
                                   ),
-                                  child: const Padding(
+                                  child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        12.0, 12.0, 12.0, 12.0),
-                                    child: SizedBox(
+                                        12, 12, 12, 12),
+                                    child: Container(
                                       width: double.infinity,
-                                      height: 300.0,
+                                      height: 300,
                                       child: custom_widgets.SignatureWidget(
                                         width: double.infinity,
                                         height: double.infinity,
@@ -365,8 +344,8 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 24.0, 0.0, 24.0),
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 24, 0, 24),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
                                     mainAxisAlignment:
@@ -374,14 +353,14 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                     children: [
                                       FlutterFlowIconButton(
                                         borderColor: Colors.transparent,
-                                        borderRadius: 20.0,
-                                        borderWidth: 1.0,
-                                        buttonSize: 40.0,
+                                        borderRadius: 20,
+                                        borderWidth: 1,
+                                        buttonSize: 40,
                                         icon: Icon(
                                           Icons.undo,
                                           color: FlutterFlowTheme.of(context)
                                               .primaryText,
-                                          size: 24.0,
+                                          size: 24,
                                         ),
                                         onPressed: () async {
                                           await actions.undoSignature();
@@ -389,14 +368,14 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                       ),
                                       FlutterFlowIconButton(
                                         borderColor: Colors.transparent,
-                                        borderRadius: 20.0,
-                                        borderWidth: 1.0,
-                                        buttonSize: 40.0,
+                                        borderRadius: 20,
+                                        borderWidth: 1,
+                                        buttonSize: 40,
                                         icon: Icon(
                                           Icons.redo,
                                           color: FlutterFlowTheme.of(context)
                                               .primaryText,
-                                          size: 24.0,
+                                          size: 24,
                                         ),
                                         onPressed: () async {
                                           await actions.redoSignature();
@@ -410,8 +389,8 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                   children: [
                                     Expanded(
                                       child: Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            20.0, 0.0, 20.0, 0.0),
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            20, 0, 20, 0),
                                         child: FFButtonWidget(
                                           onPressed: () async {
                                             _model.base64 =
@@ -438,7 +417,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                   builder:
                                                       (alertDialogContext) {
                                                     return AlertDialog(
-                                                      title: const Text('error'),
+                                                      title: Text('error'),
                                                       content:
                                                           Text(getJsonField(
                                                         (_model.apiResult
@@ -451,7 +430,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                           onPressed: () =>
                                                               Navigator.pop(
                                                                   alertDialogContext),
-                                                          child: const Text('Ok'),
+                                                          child: Text('Ok'),
                                                         ),
                                                       ],
                                                     );
@@ -463,15 +442,15 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                 context: context,
                                                 builder: (alertDialogContext) {
                                                   return AlertDialog(
-                                                    title: const Text('error'),
+                                                    title: Text('error'),
                                                     content:
-                                                        const Text('sign in the box'),
+                                                        Text('sign in the box'),
                                                     actions: [
                                                       TextButton(
                                                         onPressed: () =>
                                                             Navigator.pop(
                                                                 alertDialogContext),
-                                                        child: const Text('Ok'),
+                                                        child: Text('Ok'),
                                                       ),
                                                     ],
                                                   );
@@ -489,14 +468,14 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                             width: MediaQuery.sizeOf(context)
                                                     .width *
                                                 0.5,
-                                            height: 40.0,
+                                            height: 40,
                                             padding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    24.0, 0.0, 24.0, 0.0),
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    24, 0, 24, 0),
                                             iconPadding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
-                                            color: const Color(0xFF178334),
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0, 0, 0, 0),
+                                            color: Color(0xFF178334),
                                             textStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .titleSmall
@@ -509,7 +488,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                           FlutterFlowTheme.of(
                                                                   context)
                                                               .white70,
-                                                      letterSpacing: 0.0,
+                                                      letterSpacing: 0,
                                                       useGoogleFonts: GoogleFonts
                                                               .asMap()
                                                           .containsKey(
@@ -517,21 +496,21 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                                       context)
                                                                   .titleSmallFamily),
                                                     ),
-                                            elevation: 3.0,
-                                            borderSide: const BorderSide(
+                                            elevation: 3,
+                                            borderSide: BorderSide(
                                               color: Colors.transparent,
-                                              width: 1.0,
+                                              width: 1,
                                             ),
                                             borderRadius:
-                                                BorderRadius.circular(8.0),
+                                                BorderRadius.circular(8),
                                           ),
                                         ),
                                       ),
                                     ),
                                     Expanded(
                                       child: Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            20.0, 0.0, 20.0, 0.0),
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            20, 0, 20, 0),
                                         child: FFButtonWidget(
                                           onPressed: () async {
                                             await actions.clearSignature();
@@ -544,13 +523,13 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                             width: MediaQuery.sizeOf(context)
                                                     .width *
                                                 0.5,
-                                            height: 40.0,
+                                            height: 40,
                                             padding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    24.0, 0.0, 24.0, 0.0),
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    24, 0, 24, 0),
                                             iconPadding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0, 0, 0, 0),
                                             color: FlutterFlowTheme.of(context)
                                                 .primary,
                                             textStyle:
@@ -562,7 +541,7 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                                   context)
                                                               .titleSmallFamily,
                                                       color: Colors.white,
-                                                      letterSpacing: 0.0,
+                                                      letterSpacing: 0,
                                                       useGoogleFonts: GoogleFonts
                                                               .asMap()
                                                           .containsKey(
@@ -570,13 +549,13 @@ class _SignaturePageWidgetState extends State<SignaturePageWidget> {
                                                                       context)
                                                                   .titleSmallFamily),
                                                     ),
-                                            elevation: 3.0,
-                                            borderSide: const BorderSide(
+                                            elevation: 3,
+                                            borderSide: BorderSide(
                                               color: Colors.transparent,
-                                              width: 1.0,
+                                              width: 1,
                                             ),
                                             borderRadius:
-                                                BorderRadius.circular(8.0),
+                                                BorderRadius.circular(8),
                                           ),
                                         ),
                                       ),
