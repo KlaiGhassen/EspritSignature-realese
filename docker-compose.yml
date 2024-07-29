@@ -22,7 +22,7 @@ services:
       - REFRESH_TOKEN_SECRET=refreshToken
       - ACCESS_TOKEN_SECRET=accessToken
       - EMAIL=ghassen.klai@esprit.tn
-      - PWD=*****
+      - PWD=Lab36713@@
     ports:
       - "3000:3000"
     networks:
