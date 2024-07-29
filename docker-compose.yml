@@ -21,7 +21,7 @@ services:
       - PDF_LINK=http://51.38.125.78:3000/api/files/
       - REFRESH_TOKEN_SECRET=refreshToken
       - ACCESS_TOKEN_SECRET=accessToken
-      - EMAIL=ghassen.klai@esprit.tn
+      - EMAIL=espritsignature@esprit.tn 
       - PWD=Lab36713@@
     ports:
       - "3000:3000"
