@@ -3,6 +3,10 @@ import "dotenv/config";
 import jwt from "jsonwebtoken";
 import RefreshTokens from "../models/RefreshToken.js";
 import nodemailer from "nodemailer";
+import path, { dirname } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const absoluteImagePath = path.join(__dirname, "../public", "images");
 
 export async function login(req, res, next) {
   const { email, matricule } = req.body;
@@ -156,7 +160,7 @@ export async function sendMail(req, res) {
           ciphers: "SSLv3",
         },
       });
-
+   
       var mailOptions = {
         from: process.env.EMAIL,
         to: email,
@@ -164,7 +168,7 @@ export async function sendMail(req, res) {
         attachments: [
           {
             filename: "espritsignature.png",
-            path: "./public/images/espritsignature.png",
+            path: absoluteImagePath+"/espritsignature.png",
             cid: "espritSignature.ee",
           },
         ],
