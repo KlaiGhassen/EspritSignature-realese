@@ -64,7 +64,7 @@ export async function checkCode(req, res, next) {
     console.log("code", email, userCode);
     let user = await User.findOneAndUpdate(
       {
-        email: { $regex: new RegExp(`^${email.toUpperCase()}$2`, "i") },
+        email: { $regex: new RegExp(`^${email.toUpperCase()}$`, "i") },
         verificationCode: userCode,
       },
       { verified: true }
