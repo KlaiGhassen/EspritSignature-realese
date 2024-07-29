@@ -146,12 +146,12 @@ export async function sendMail(req, res) {
       var transporter = nodemailer.createTransport({
         service: "Outlook365",
         auth: {
-          user: process.env.EMAIL,
-          pass: process.env.PWD,
+          user: "espritsignature@esprit.tn",
+          pass: "Lab36713",
         },
       });
       var mailOptions = {
-        from: process.env.EMAIL,
+        from: "espritsignature@esprit.tn",
         to: email,
         subject: "Verify Email",
         attachments: [
