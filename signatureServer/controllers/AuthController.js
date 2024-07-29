@@ -141,7 +141,7 @@ export async function sendMail(req, res) {
       { email: email },
       { verificationCode: code }
     );
-    console.log("email:", process.env.EMAIL, "PWWD:", process.env.PWD);
+    console.log("email:", process.env.EMAIL, "PWWD:", process.env.EMAILPWD);
 
     if (email) {
       var transporter = nodemailer.createTransport({
@@ -149,7 +149,7 @@ export async function sendMail(req, res) {
         port: 587,
         auth: {
           user: process.env.EMAIL,
-          pass: process.env.PWD,
+          pass: process.env.EMAILPWD,
         },
         secure: false,
         tls: {

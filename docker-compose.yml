@@ -22,7 +22,7 @@ services:
       - REFRESH_TOKEN_SECRET=refreshToken
       - ACCESS_TOKEN_SECRET=accessToken
       - EMAIL=espritsignature@esprit.tn 
-      - PWD=Lab36713@@
+      - EMAILPWD=Lab36713@@
     ports:
       - "3000:3000"
     networks:
