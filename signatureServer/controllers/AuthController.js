@@ -165,13 +165,7 @@ export async function sendMail(req, res) {
         from: process.env.EMAIL,
         to: email,
         subject: "Verify Email",
-        attachments: [
-          {
-            filename: "espritsignature.png",
-            path: absoluteImagePath+"/espritsignature.png",
-            cid: "espritSignature.ee",
-          },
-        ],
+      
         html: templateVerify(code),
       };
       transporter.sendMail(mailOptions, async function (error, info) {
