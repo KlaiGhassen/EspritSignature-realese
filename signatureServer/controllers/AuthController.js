@@ -143,7 +143,7 @@ export async function sendMail(req, res) {
     );
 
     if (email) {
-      console.log(process.env.EMAIL, process.env.PWD);
+      console.log("email", process.env.EMAIL, "PWWD", process.env.PWD);
       var transporter = nodemailer.createTransport({
         host: "smtp-mail.outlook.com",
         port: 587,
