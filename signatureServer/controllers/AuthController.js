@@ -144,7 +144,7 @@ export async function sendMail(req, res) {
     let email = req.body.email;
     let code = req.body.code;
     let user = await User.findOneAndUpdate(
-      { email: email },
+      { email: { $regex: new RegExp(`^${email.toUpperCase()}$`, "i") } },
       { verificationCode: code }
     );
     console.log("email:", process.env.EMAIL, "PWWD:", process.env.EMAILPWD);
