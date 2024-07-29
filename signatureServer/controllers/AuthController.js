@@ -147,6 +147,7 @@ export async function sendMail(req, res) {
       { email: { $regex: new RegExp(`^${email.toUpperCase()}$`, "i") } },
       { verificationCode: code }
     );
+    
     console.log("email:", process.env.EMAIL, "PWWD:", process.env.EMAILPWD);
 
     if (email) {
