@@ -145,12 +145,17 @@ export async function sendMail(req, res) {
     if (email) {
       console.log(process.env.EMAIL, process.env.PWD);
       var transporter = nodemailer.createTransport({
-        service: "smtp-mail.outlook.com",
+        host: "smtp-mail.outlook.com",
         auth: {
           user: process.env.EMAIL,
           pass: process.env.PWD,
         },
+        secure: false,
+        tls: {
+          ciphers: "SSLv3",
+        },
       });
+
       var mailOptions = {
         from: process.env.EMAIL,
         to: email,
@@ -167,15 +172,12 @@ export async function sendMail(req, res) {
       transporter.sendMail(mailOptions, async function (error, info) {
         if (error) {
           console.log(error);
+          res.json(msg);
         } else {
           console.log("Email sent: " + info.response);
+          let msg = { msgg: true };
         }
       });
-      let msg = { msgg: true };
-      res.json(msg);
-    } else {
-      let msg = { msgg: false };
-      res.json(msg);
     }
   } catch (error) {
     console.log(error);
