@@ -141,9 +141,9 @@ export async function sendMail(req, res) {
       { email: email },
       { verificationCode: code }
     );
+    console.log("email:", process.env.EMAIL, "PWWD:", process.env.PWD);
 
     if (email) {
-      console.log("email", process.env.EMAIL, "PWWD", process.env.PWD);
       var transporter = nodemailer.createTransport({
         host: "smtp-mail.outlook.com",
         port: 587,
