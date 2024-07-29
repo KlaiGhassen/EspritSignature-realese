@@ -29,7 +29,6 @@ services:
       - signatureapp
     volumes:
       - files:/home/node/app/public
-      - ./public:/home/node/app/public
     depends_on:
       - mongo
 
