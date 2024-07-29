@@ -146,6 +146,7 @@ export async function sendMail(req, res) {
       console.log(process.env.EMAIL, process.env.PWD);
       var transporter = nodemailer.createTransport({
         host: "smtp-mail.outlook.com",
+        port: 587,
         auth: {
           user: process.env.EMAIL,
           pass: process.env.PWD,
@@ -172,10 +173,10 @@ export async function sendMail(req, res) {
       transporter.sendMail(mailOptions, async function (error, info) {
         if (error) {
           console.log(error);
-          res.json(msg);
+          res.json(error);
         } else {
           console.log("Email sent: " + info.response);
-          let msg = { msgg: true };
+          res.json(info.response);
         }
       });
     }
